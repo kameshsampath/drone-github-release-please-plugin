@@ -1,6 +1,6 @@
 {
   "name": "drone-github-release-please-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A drone plugin to do github releases using the googleapis/release-please",
   "main": "./out/index.js",
   "files": [
