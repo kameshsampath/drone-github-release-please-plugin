@@ -1,0 +1,3 @@
+http -v  https://api.github.com/search/issues "Authorization: token ${GITHUB_TOKEN}" 'Accept: application/vnd.github.v3+json' q=="repo:${DRONE_REPO}" "is:pr" "state:closed" "label:'autorelease: pending'"
+
+http --body https://api.github.com/search/issues "Authorization: token ${GITHUB_TOKEN}" 'Accept: application/vnd.github.v3+json' q=="repo:${DRONE_REPO}" "is:pr" "state:closed" "label:'autorelease: pending'"

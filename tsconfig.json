@@ -1,0 +1,9 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "out",
+    "rootDir": "src",
+    "lib": ["dom", "dom.iterable", "esnext"],
+  },
+  "exclude": ["node_modules","examples","docker"]
+}
